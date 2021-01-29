@@ -1,8 +1,8 @@
 ## Setting up lab enviroment
 
-- Login to your azure enviroment (ensure the account you use has at a minimum has Contributor role privilege)
-- Open cloud shell (it would create the shell enviroment if it is the first time being accessed)
-- Go to the storage account linked to the the cloud shell environment
+- Login to your azure enviroment (ensure the account you use at a minimum has Contributor role privilege)
+- Open cloud shell (it would setup the enviroment if first time access)
+- Go to the storage account linked to the the cloud shell environment (look for resource group with 'cloudshell' in its name)
 - In the storage account click on "File shares" tab on the left side menu
 - Click on the fileshare name that is displayed on the right hand pane (only one should have been created by default)
 - Once inside the file share, click on "Add directory" on the top and name it "openhack"
